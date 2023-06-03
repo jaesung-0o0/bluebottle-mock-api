@@ -1,123 +1,193 @@
 {
-  "drinks": [
-    {
-      "espresso": [
-        {
-          "id": 0,
-          "name": "Cappuccino",
-          "subtitle": "Espresso balanced with a short pour of velvety steamed milk; sometimes called a “flat white",
-          "discription": "Our cappuccino is made in the modern style, balancing our full-bodied espresso with velvety steamed milk-not the stiff foam cap of yore. In specialty coffee circles this newer style is sometimes called a “flat white.” But we consider it the new cappuccino standard.",
-          "preparation": "Espresso",
-          "calories": {
-            "min": 45,
-            "max": 140
-          }
-        },
-        {
-          "id": 1,
-          "name": "Caffè Latte",
-          "subtitle": "Espresso sweetened with a long pure of steamed milk",
-          "discription": "One of our most popular drinks, our latte turns our assertive, chocolatey Hayes Valley Espresso velvety-sweet with a long pour of densely steamed milk.",
-          "preparation": "Espresso",
-          "calories": {
-            "min": 100,
-            "max": 230
-          }
-        },
-        {
-          "id": 2,
-          "name": "Gibraltar",
-          "subtitle": "Espresso topped off with steamed milk-our version of a cortado",
-          "discription": "A Blue Bottle original, our Gibraltar is named for the beveled glass in which it’s served. An espresso topped off with steamed milk, our version of a Spanish cortado is built for immediate quaffing.",
-          "preparation": "Espresso",
-          "calories": {
-            "min": 40,
-            "max": 80
-          }
-        },
-        {
-          "id": 3,
-          "name": "Caffè Mocha",
-          "subtitle": "Espresso with steamed milk and chocolate ganache",
-          "discription": "The tradition of combining coffee, coffee, chocolate, and milk or cream dates back to eighteenth-century Turin’s Caffè al Bicerin. We source our chocolate from local purveyors, a different one in each city.",
-          "preparation": "Espresso",
-          "calories": {
-            "min": 210,
-            "max": 360
-          }
-        },
-        {
-          "id": 4,
-          "name": "Shakerato",
-          "subtitle": "Espresso, milk, vanilla, and cane sugar hand-shaken over ice until chilled and frothy",
-          "discription": "A spin on a classic Italian iced-coffee treat, our seasonal shakerato contains espresso and milk lightly sweetened with earthy-sweet muscovado sugar, hand-shaken over ice until chilled and frothy.",
-          "preparation": "Espresso",
-          "calories": {
-            "min": 60,
-            "max": 160
-          }
-        },
-        {
-          "id": 5,
-          "name": "Americano",
-          "subtitle": "Espresso pulled over hot water",
-          "discription": "Similar in strength to a pour over, our Americano also boasts the rich flavor of our bold, ristretto-style espresso.",
-          "preparation": "Espresso",
-          "calories": {
-            "min": 0,
-            "max": 70
-          }
+  "drinks": {
+    "espresso": [
+      {
+        "id": 0,
+        "name": "Cappuccino",
+        "subtitle": "Espresso balanced with a short pour of velvety steamed milk; sometimes called a “flat white",
+        "discription": "Our cappuccino is made in the modern style, balancing our full-bodied espresso with velvety steamed milk-not the stiff foam cap of yore. In specialty coffee circles this newer style is sometimes called a “flat white.” But we consider it the new cappuccino standard.",
+        "preparation": "Espresso",
+        "calories": {
+          "min": 45,
+          "max": 140
         }
-      ]
-    }
-  ],
+      },
+      {
+        "id": 1,
+        "name": "Caffè Latte",
+        "subtitle": "Espresso sweetened with a long pure of steamed milk",
+        "discription": "One of our most popular drinks, our latte turns our assertive, chocolatey Hayes Valley Espresso velvety-sweet with a long pour of densely steamed milk.",
+        "preparation": "Espresso",
+        "calories": {
+          "min": 100,
+          "max": 230
+        }
+      },
+      {
+        "id": 2,
+        "name": "Gibraltar",
+        "subtitle": "Espresso topped off with steamed milk-our version of a cortado",
+        "discription": "A Blue Bottle original, our Gibraltar is named for the beveled glass in which it’s served. An espresso topped off with steamed milk, our version of a Spanish cortado is built for immediate quaffing.",
+        "preparation": "Espresso",
+        "calories": {
+          "min": 40,
+          "max": 80
+        }
+      },
+      {
+        "id": 3,
+        "name": "Caffè Mocha",
+        "subtitle": "Espresso with steamed milk and chocolate ganache",
+        "discription": "The tradition of combining coffee, coffee, chocolate, and milk or cream dates back to eighteenth-century Turin’s Caffè al Bicerin. We source our chocolate from local purveyors, a different one in each city.",
+        "preparation": "Espresso",
+        "calories": {
+          "min": 210,
+          "max": 360
+        }
+      },
+      {
+        "id": 4,
+        "name": "Shakerato",
+        "subtitle": "Espresso, milk, vanilla, and cane sugar hand-shaken over ice until chilled and frothy",
+        "discription": "A spin on a classic Italian iced-coffee treat, our seasonal shakerato contains espresso and milk lightly sweetened with earthy-sweet muscovado sugar, hand-shaken over ice until chilled and frothy.",
+        "preparation": "Espresso",
+        "calories": {
+          "min": 60,
+          "max": 160
+        }
+      },
+      {
+        "id": 5,
+        "name": "Americano",
+        "subtitle": "Espresso pulled over hot water",
+        "discription": "Similar in strength to a pour over, our Americano also boasts the rich flavor of our bold, ristretto-style espresso.",
+        "preparation": "Espresso",
+        "calories": {
+          "min": 0,
+          "max": 70
+        }
+      }
+    ]
+  },
   "cafes": [
-    { 
+    {
       "id": 0,
       "branch": "성수",
       "address": "서울시 성동구 아차산로 7",
       "times": {
-        "mon": { "open": "0800", "close": "2030" },
-        "tue": { "open": "0800", "close": "2030" },
-        "wed": { "open": "0800", "close": "2030" },
-        "thu": { "open": "0800", "close": "2030" },
-        "fri": { "open": "0800", "close": "2030" },
-        "sat": { "open": "0800", "close": "2030" },
-        "sun": { "open": "0800", "close": "2030" }
+        "mon": {
+          "open": "0800",
+          "close": "2030"
+        },
+        "tue": {
+          "open": "0800",
+          "close": "2030"
+        },
+        "wed": {
+          "open": "0800",
+          "close": "2030"
+        },
+        "thu": {
+          "open": "0800",
+          "close": "2030"
+        },
+        "fri": {
+          "open": "0800",
+          "close": "2030"
+        },
+        "sat": {
+          "open": "0800",
+          "close": "2030"
+        },
+        "sun": {
+          "open": "0800",
+          "close": "2030"
+        }
       },
-      "location": { "latitude": 0.0, "logitude": 0.0 },
+      "location": {
+        "latitude": 0.0,
+        "logitude": 0.0
+      },
       "imageUrl": "https://www.bluebottlecoffeekorea.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fcqfze8rg%2Fproduction%2F268e98db85005f8df7635bd9376286b858c846ba-4500x3000.jpg&w=1200&q=75"
     },
-    { 
+    {
       "id": 1,
       "branch": "삼청",
       "address": "서울시 종로구 북촌로5길 76",
       "times": {
-        "mon": { "open": "0900", "close": "2030" },
-        "tue": { "open": "0900", "close": "2030" },
-        "wed": { "open": "0900", "close": "2030" },
-        "thu": { "open": "0900", "close": "2030" },
-        "fri": { "open": "0900", "close": "2030" },
-        "sat": { "open": "0900", "close": "2030" },
-        "sun": { "open": "0900", "close": "2030" }
+        "mon": {
+          "open": "0900",
+          "close": "2030"
+        },
+        "tue": {
+          "open": "0900",
+          "close": "2030"
+        },
+        "wed": {
+          "open": "0900",
+          "close": "2030"
+        },
+        "thu": {
+          "open": "0900",
+          "close": "2030"
+        },
+        "fri": {
+          "open": "0900",
+          "close": "2030"
+        },
+        "sat": {
+          "open": "0900",
+          "close": "2030"
+        },
+        "sun": {
+          "open": "0900",
+          "close": "2030"
+        }
       },
-      "location": { "latitude": 0.0, "logitude": 0.0 },
+      "location": {
+        "latitude": 0.0,
+        "logitude": 0.0
+      },
       "imageUrl": "https://www.bluebottlecoffeekorea.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fcqfze8rg%2Fproduction%2Fee6d6b850270a0bc8ae0b90efffb06127f4a3a38-2000x1052.jpg&w=1200&q=75"
     },
-    { 
+    {
       "id": 2,
       "branch": "삼청",
       "address": "서울시 종로구 삼청로2길 40-3",
       "times": {
-        "mon": { "open": "1100", "close": "2000" },
-        "tue": { "open": "1100", "close": "2000" },
-        "wed": { "open": "1100", "close": "2000" },
-        "thu": { "open": "1100", "close": "2000" },
-        "fri": { "open": "1100", "close": "2000" },
-        "sat": { "open": "1100", "close": "2000" },
-        "sun": { "open": "1100", "close": "2000" }
+        "mon": {
+          "open": "1100",
+          "close": "2000"
+        },
+        "tue": {
+          "open": "1100",
+          "close": "2000"
+        },
+        "wed": {
+          "open": "1100",
+          "close": "2000"
+        },
+        "thu": {
+          "open": "1100",
+          "close": "2000"
+        },
+        "fri": {
+          "open": "1100",
+          "close": "2000"
+        },
+        "sat": {
+          "open": "1100",
+          "close": "2000"
+        },
+        "sun": {
+          "open": "1100",
+          "close": "2000"
+        }
       },
-      "location": { "latitude": 0.0, "logitude": 0.0 },
+      "location": {
+        "latitude": 0.0,
+        "logitude": 0.0
+      },
       "imageUrl": "https://www.bluebottlecoffeekorea.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fcqfze8rg%2Fproduction%2F5e00be969b23061a73569d1ab512478f2e41aa57-8688x5792.jpg&w=1200&q=75",
       "theme": "한옥"
     }
