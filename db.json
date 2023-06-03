@@ -190,22 +190,6 @@
       },
       "location": { "latitude": 0.0, "logitude": 0.0 },
       "imageUrl": "https://www.bluebottlecoffeekorea.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fcqfze8rg%2Fproduction%2Fdef2bfa34145b734551077cd30adf5b23e115ab6-6720x4480.jpg&w=1200&q=75"
-    },
-    { 
-      "id": 6,
-      "branch": "광화문",
-      "address": "서울시 종로구 청계천로 11",
-      "times": {
-        "mon": { "open": "0800", "close": "2000" },
-        "tue": { "open": "0800", "close": "2000" },
-        "wed": { "open": "0800", "close": "2000" },
-        "thu": { "open": "0800", "close": "2000" },
-        "fri": { "open": "0800", "close": "2000" },
-        "sat": { "open": "0900", "close": "2030" },
-        "sun": { "open": "0900", "close": "2030" }
-      },
-      "location": { "latitude": 0.0, "logitude": 0.0 },
-      "imageUrl": "https://www.bluebottlecoffeekorea.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fcqfze8rg%2Fproduction%2F7cd9d3ccf46e0af068f8a1fc57a977ff4ff6fa43-6789x4531.jpg&w=1200&q=75"
     }
   ],
   "news": [
