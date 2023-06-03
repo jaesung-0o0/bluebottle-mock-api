@@ -78,17 +78,6 @@
             "min": 60,
             "max": 120
           }
-        },
-        {
-          "id": 7,
-          "name": "Single Origin Cold Brew Can",
-          "subtitle": "A sippable pure iced coffee from Colombia",
-          "discription": "This Colombia single origin forms the backbone of our cafes’ espresso. When cold-brewed over many hours, this sippable coffee shines alone.",
-          "preparation": "",
-          "calories": {
-            "min": 0,
-            "max": 0
-          }
         }
       ]
     }
@@ -174,22 +163,6 @@
       },
       "location": { "latitude": 0.0, "logitude": 0.0 },
       "imageUrl": "https://www.bluebottlecoffeekorea.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fcqfze8rg%2Fproduction%2F439d7f893431ceb91eeceaf53672dcd891a32051-828x552.jpg&w=1200&q=75"
-    },
-    { 
-      "id": 5,
-      "branch": "한남",
-      "address": "서울시 용산구 한남대로 91",
-      "times": {
-        "mon": { "open": "0900", "close": "2030" },
-        "tue": { "open": "0900", "close": "2030" },
-        "wed": { "open": "0900", "close": "2030" },
-        "thu": { "open": "0900", "close": "2030" },
-        "fri": { "open": "0900", "close": "2030" },
-        "sat": { "open": "0800", "close": "2030" },
-        "sun": { "open": "0800", "close": "2030" }
-      },
-      "location": { "latitude": 0.0, "logitude": 0.0 },
-      "imageUrl": "https://www.bluebottlecoffeekorea.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fcqfze8rg%2Fproduction%2Fdef2bfa34145b734551077cd30adf5b23e115ab6-6720x4480.jpg&w=1200&q=75"
     }
   ],
   "news": [
