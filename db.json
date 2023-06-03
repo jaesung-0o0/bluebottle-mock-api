@@ -67,17 +67,6 @@
             "min": 0,
             "max": 70
           }
-        },
-        {
-          "id": 6,
-          "name": "New Orleans-Style Iced Coffee",
-          "subtitle": "With milk, cane sugar, and roasted chicory",
-          "discription": "New Orleans-style Iced Coffee is a sweet, creamy, decadent iced coffee that’s cold-brewed with roasted chicory, then cut with your choice of milk and cane sugar.",
-          "preparation": "Cold Brew",
-          "calories": {
-            "min": 60,
-            "max": 120
-          }
         }
       ]
     }
@@ -131,38 +120,6 @@
       "location": { "latitude": 0.0, "logitude": 0.0 },
       "imageUrl": "https://www.bluebottlecoffeekorea.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fcqfze8rg%2Fproduction%2F5e00be969b23061a73569d1ab512478f2e41aa57-8688x5792.jpg&w=1200&q=75",
       "theme": "한옥"
-    },
-    { 
-      "id": 3,
-      "branch": "역삼",
-      "address": "서울시 강남구 테헤란로 129 강남N타워",
-      "times": {
-        "mon": { "open": "0800", "close": "2000" },
-        "tue": { "open": "0800", "close": "2000" },
-        "wed": { "open": "0800", "close": "2000" },
-        "thu": { "open": "0800", "close": "2000" },
-        "fri": { "open": "0800", "close": "2000" },
-        "sat": { "open": "0800", "close": "2030" },
-        "sun": { "open": "0800", "close": "2030" }
-      },
-      "location": { "latitude": 0.0, "logitude": 0.0 },
-      "imageUrl": "https://www.bluebottlecoffeekorea.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fcqfze8rg%2Fproduction%2Fb4b47283c2808a296c7b95708a6b44f1ac62ed78-6629x4129.jpg&w=1200&q=75"
-    },
-    { 
-      "id": 4,
-      "branch": "압구정",
-      "address": "서울시 강남구 논현로 854",
-      "times": {
-        "mon": { "open": "0800", "close": "2030" },
-        "tue": { "open": "0800", "close": "2030" },
-        "wed": { "open": "0800", "close": "2030" },
-        "thu": { "open": "0800", "close": "2030" },
-        "fri": { "open": "0800", "close": "2030" },
-        "sat": { "open": "0800", "close": "2030" },
-        "sun": { "open": "0800", "close": "2030" }
-      },
-      "location": { "latitude": 0.0, "logitude": 0.0 },
-      "imageUrl": "https://www.bluebottlecoffeekorea.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fcqfze8rg%2Fproduction%2F439d7f893431ceb91eeceaf53672dcd891a32051-828x552.jpg&w=1200&q=75"
     }
   ],
   "news": [
@@ -189,14 +146,6 @@
       "uploadedAt": 1682928000,
       "imageUrl": "https://www.bluebottlecoffeekorea.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fcqfze8rg%2Fproduction%2F3b34276f40dd4e690be8905a95eac454035c1fc5-1920x1080.jpg&w=1200&q=75",
       "link": "https://www.bluebottlecoffeekorea.com/news/cold-blend-no1"
-    },
-    {
-      "id": 3,
-      "title": "블루보틀 홍대 팝업 카페 오픈",
-      "subtitle": "새롭게 선보이는 블루보틀 홍대 팝업 카페를 소개합니다",
-      "uploadedAt": 1677830400,
-      "imageUrl": "https://www.bluebottlecoffeekorea.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fcqfze8rg%2Fproduction%2Faa5a5117b3288be3af5079b869eb77d0f4e6f70c-1920x1080.jpg&w=1200&q=75",
-      "link": "https://www.bluebottlecoffeekorea.com/news/bluebottle-hongdae-pop-up"
     }
   ]
 }
